@@ -29,15 +29,24 @@ header a {
   display: flex;
 }
 
+main .texto {
+margin-bottom: 250px;
+  
+}
+
 .qr img{
   width: 150px;
   display: flex;
   margin-left: -550px;
+  margin-bottom: -100px;
 }
 
 .ls li {
   margin-left: 20px;
 
+}
+.res h5{
+  padding-top: 30px;
 }
 
 .main #prof{
@@ -50,6 +59,10 @@ header a {
   font-family:"Dancing Script", sans-serif;
   font-size: 30px;
   justify-content: center;
+}
+
+.main .texto{
+ padding-top: 200px;
 }
 
 .lay .item{
@@ -137,6 +150,24 @@ section .pet{
   height: 300px;
   justify-content: center;
 }
+
+.pet .dog1 img{
+  height: 280px;
+  width: 220px;
+  margin-top: 33px;
+}
+
+.pet .dog3 img{
+  height: 355px;
+  width: 350px; 
+}
+
+.pet .dog4 img{
+margin-top: -90px;
+margin-bottom: -4px;
+
+}
+
 
 
 .pet .dog2{

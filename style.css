@@ -24,6 +24,12 @@ header a {
   color: blanchedalmond;
 }
 
+
+li a:hover {
+  color:#f07f7f;
+
+}
+
 .ls { 
   list-style: none;
   display: flex;
@@ -200,14 +206,39 @@ margin-bottom: -4px;
 
 footer {
   background-color: #1fb2aa;
-  height: 90px;
+  height: 100px;
+  color: #ffe4c4;
+  padding-top: 30px;
 }
 
-footer .fot{
+.icon p{
   display: flex;
   justify-content: center;
-  padding-top: 45px;
-  color:#ffe4c4;
+  align-items: center;
+  font-size: 30px;
+}
+
+.foot{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
   font-weight: bold;
   font-size: 20px;
 }
+
+.icon{
+  display: flex;
+ justify-content: center;
+}
+
+.icon img{
+  width: 45px;
+  height: 45px;
+}
+
+.icon img:hover{
+  padding-bottom: 5px;
+  rotate: 45deg;
+  
+}
+

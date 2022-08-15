@@ -262,9 +262,9 @@ footer {
   .header{
     width: 100%;
     display: flex;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
-    justify-content: center;
+    font-weight: bold;
   }
 
  
@@ -278,8 +278,32 @@ footer {
     width: 45px;
   }
 
-  .qr img{
-    display: none;
+  .profile img{
+    width: 380px;
+    display: flex;
+    margin-left: -60px;
+   
+  }
+
+ .qr img{
+  display: flex;
+    margin-left: -100px;
+    width: 150px;
+    padding-bottom: 350px;
+  }
+
+  .main #prof {
+    height: 650px;
+  }
+
+  .prod h2{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+.tp h3{
+    font-size: 25px;
+    font-weight: bold;
   }
 
   section .pet {

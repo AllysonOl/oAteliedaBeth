@@ -78,10 +78,6 @@ margin-bottom: 250px;
  padding-top: 200px;
 }
 
-.lay .item{
-  background-color:#ffe4c4;
-  
-}
 
 .profile img{
   width: 500px;
@@ -105,7 +101,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 } 
 
 .lay img{
@@ -118,15 +114,15 @@ text-align: center;
 
 .lay .itemx{
   background-color:#1fb2aa;
-  margin-right: 15px;
-  margin-top: 15px;
+  margin: 10px;
+  /*margin-top: 15px;*/
 
 }
 
 .lay .itemz{
   background-color:#ffa07a;
- margin-right: 15px;
- margin-top: 15px;
+ margin: 10px;
+ /*margin-top: 15px;*/
 
 }
 
@@ -148,20 +144,14 @@ text-align: center;
   height: 400px;
   background-color: #ffe4c4;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section .pet{
   justify-content: center;
   display: flex;
-}
-
-
-.pet .dog1{
-  background-color:#1fb2aa;
-  display: flex;
-  width: 300px;
-  height: 300px;
-  justify-content: center;
+  max-width: 100%;
 }
 
 .pet .dog1 img{
@@ -181,6 +171,15 @@ margin-bottom: -4px;
 
 }
 
+.pet .dog1{
+  background-color:#1fb2aa;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  
+
+}
 
 
 .pet .dog2{
@@ -188,8 +187,9 @@ margin-bottom: -4px;
   display: flex;
   width: 300px;
   height: 300px;
-  margin-left: 10px;
-  justify-content: center;
+  margin: 10px;
+  
+ 
 }
 
 .pet .dog3{
@@ -197,8 +197,10 @@ margin-bottom: -4px;
   display: flex;
   width: 300px;
   height: 300px;
-  margin-left: 10px;
-  justify-content: center;
+  margin: 10px;
+
+  
+ 
 }
 
 .pet .dog4{
@@ -206,8 +208,8 @@ margin-bottom: -4px;
   display: flex;
   width: 300px;
   height: 300px;
-  margin-left: 10px;
-  justify-content: center;
+  margin: 10px;
+ 
 }
 
 
@@ -248,8 +250,10 @@ footer {
   rotate: 45deg;
   
 }
-
-@media screen and (max-width: 576px) {
+    
+ /* TABLETS 768px */
+ /* CELULARES */
+@media screen and (max-width: 600px) {
   
   html, body{
     overflow-x: hidden;
@@ -260,7 +264,7 @@ footer {
   }
 
   .header{
-    width: 100%;
+   
     display: flex;
     font-size: 14px;
     text-transform: uppercase;
@@ -285,8 +289,8 @@ footer {
    
   }
 
- .qr img{
-  display: flex;
+  .qr img{
+    display: flex;
     margin-left: -100px;
     width: 150px;
     padding-bottom: 350px;
@@ -301,54 +305,34 @@ footer {
     font-weight: bold;
   }
 
-.tp h3{
+  #product .lay .itemx .itemz{
+   width: 80%;
+  }
+
+
+  .tp h3{
     font-size: 25px;
     font-weight: bold;
   }
 
   section .pet {
     display: flex;
-   flex-wrap: wrap;
-   height: 100%;
+    flex-wrap: wrap;
+    height: 100%;
   }
-
-  
-  section .pet .dog1, .dog2, .dog3 {
-    margin-bottom: 10px;
-    justify-content: center;
-    width: 80%;
-  } 
-
-  
   section .pet .dog1{
-    width: 70%;
-    height: 80%;
-    
-    justify-content: center;
-    
+    width: 80%;
   }
-
   section .pet .dog2{
-    width: 70%;
-    
-    justify-content: center;
+    width: 80%;
   }
-
   section .pet .dog3{
-    width: 70%;
-    
-    justify-content: center;
+    width: 80%;
   }
-
   section .pet .dog4{
-    width: 70%;
-    
-    justify-content: center;
-    margin-bottom: 10px;
+    width: 80%;
+    margin-bottom: 20px;
   }
 
-
-
-
- 
 }
+  
